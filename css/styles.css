@@ -378,10 +378,15 @@ img {
   .nav-menu .button {
     border: none; }
 
-.jumbotron {
+.intro {
   width: 100%;
   margin: 0;
-  background-color: #228B22;
-  font-color: white; }
+  background-color: #2E8B57;
+  color: white;
+  padding: 15%;
+  font-family: 'Anton', sans-serif; }
+
+.fun-facts {
+  padding-top: 5%; }
 
 /*# sourceMappingURL=styles.css.map */
