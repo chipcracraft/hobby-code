@@ -12,8 +12,18 @@ img {
 .nav-menu {
   padding-left: 1%;
   padding-top: 1%;
+  border-bottom: 1px black solid;
+
+
+  .button {
+    border: none;
+  }
 }
 
-.button {
-  border: none;
+
+.jumbotron {
+  width: 100%;
+  margin: 0;
+  background-color: #228B22;
+  font-color: white;
 }
