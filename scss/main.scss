@@ -9,18 +9,36 @@ img {
 #app-container{
 }
 
-.nav-menu {
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  border-bottom: 1px black solid;
+.nav-header {
+  padding: 2% 0% 0% 85%;
 
+  .nav {
+    display: inline-block;
+    padding-left: 11px;
 
-  .button {
-    border: none;
   }
+  .nav {
+    display: none;
+
+    @media screen and (min-width:992px){
+      display: inline-block;
+    }
+ }
 }
 
+.mobile-nav {
+  padding: 1% 0% 0% 2%;
+
+
+  @media screen and (min-width:992px){
+    display: none;
+  }
+
+  .double-ham:hover {
+    color: red;
+  }
+
+}
 
 .intro {
   width: 100%;
