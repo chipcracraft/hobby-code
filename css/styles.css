@@ -372,7 +372,7 @@ img {
   display: block; }
 
 .nav-header {
-  padding: 2% 0% 0% 85%; }
+  padding: 2% 0% 0% 90%; }
   .nav-header .nav {
     display: inline-block;
     padding-left: 11px; }
@@ -400,5 +400,11 @@ img {
 
 .fun-facts {
   padding-top: 5%; }
+
+.contact-section {
+  padding-left: 45%; }
+
+.contact-list {
+  list-style: none; }
 
 /*# sourceMappingURL=styles.css.map */
