@@ -10,7 +10,7 @@ img {
 }
 
 .nav-header {
-  padding: 2% 0% 0% 90%;
+  padding: 2% 0% 0% 87%;
 
   .nav {
     display: inline-block;
@@ -50,11 +50,26 @@ img {
 }
 
 .fun-facts {
-  padding-top: 5%;
+  padding-top: 7%;
 }
 
 .contact-section {
   padding-left: 45%;
+}
+
+// .thumbnail {
+//     height: 75%;
+//     width:100%;
+// }
+
+.japan {
+  -webkit-transform: rotate(90deg);
+   margin-top: 15%;
+}
+
+.info-japan {
+  padding-top:21%;
+
 }
 
 .list-group {
@@ -68,4 +83,10 @@ img {
       -o-transition: all 1.15s;
       transition: all 1.15s;
 
+}
+
+.my-info {
+  padding-right: 26%;
+  position: absolute;
+  right: 5%;
 }

@@ -372,7 +372,7 @@ img {
   display: block; }
 
 .nav-header {
-  padding: 2% 0% 0% 90%; }
+  padding: 2% 0% 0% 87%; }
   .nav-header .nav {
     display: inline-block;
     padding-left: 11px; }
@@ -399,10 +399,17 @@ img {
   font-family: 'Anton', sans-serif; }
 
 .fun-facts {
-  padding-top: 5%; }
+  padding-top: 7%; }
 
 .contact-section {
   padding-left: 45%; }
+
+.japan {
+  -webkit-transform: rotate(90deg);
+  margin-top: 15%; }
+
+.info-japan {
+  padding-top: 21%; }
 
 .list-group {
   list-style: none; }
@@ -413,5 +420,10 @@ img {
   -ms-transition: all 1.15s;
   -o-transition: all 1.15s;
   transition: all 1.15s; }
+
+.my-info {
+  padding-right: 26%;
+  position: absolute;
+  right: 5%; }
 
 /*# sourceMappingURL=styles.css.map */
