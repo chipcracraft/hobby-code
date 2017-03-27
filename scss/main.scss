@@ -57,10 +57,15 @@ img {
   padding-left: 45%;
 }
 
-.contact-list {
+.list-group {
   list-style: none;
 }
 
-.my-info {
+.my-info.collapse{
+  -webkit-transition: all 1.15s;
+      -moz-transition: all 1.15s;
+      -ms-transition: all 1.15s;
+      -o-transition: all 1.15s;
+      transition: all 1.15s;
 
 }
