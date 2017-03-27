@@ -11,11 +11,26 @@
    </head>
    <body>
       <div id="app-container">
+        <!-- <div id="wrapper"> -->
 
-        <div class="nav-menu overlay hm-red-strong">
-          <button class="btn btn-link" type="submit">
-           <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-          </button>
+        <div class="container">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading nav-top">
+                <a href="#collapseone" data-toggle="collapse" data-parent="accordion">
+                  <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                </a>
+              </div>
+            <div id="collapseone"class="panel-collapse collapse in">
+              <ul class="side-nav">
+                <li> Home </li>
+                <li> About </li>
+                <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                </li>
+              </ul>
+             </div>
+            </div>
+          </div>
         </div>
 
         <div class="jumbotron intro text-center">
@@ -47,6 +62,7 @@
 
           </div>
         </div>
+      <!-- </div> -->
 
 
 
@@ -62,6 +78,7 @@
       <script src="./js/lib/underscore.min.js"></script>
       <script src="./js/lib/backbone.min.js "></script>
       <script src="./js/app.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 
