@@ -424,6 +424,10 @@ img {
 .info-surf {
   padding-top: 18%; }
 
+.lorem-content {
+  background-color: #e74c3c;
+  color: white; }
+
 #collapseButton {
   -webkit-transition: all 1.10s;
   -moz-transition: all 1.10s;
