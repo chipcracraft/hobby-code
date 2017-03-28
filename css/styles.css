@@ -378,12 +378,12 @@ img {
     padding-left: 11px; }
   .nav-header .search-glass {
     padding-left: 6%; }
-  .nav-header .glyphicon-search:hover {
+  .nav-header .glyphicon:hover {
     color: red; }
-  .nav-header .nav {
+  .nav-header .nav, .nav-header .search-glass {
     display: none; }
     @media screen and (min-width: 992px) {
-      .nav-header .nav {
+      .nav-header .nav, .nav-header .search-glass {
         display: inline-block; } }
 
 .mobile-nav {
@@ -391,7 +391,7 @@ img {
   @media screen and (min-width: 992px) {
     .mobile-nav {
       display: none; } }
-  .mobile-nav .double-ham:hover {
+  .mobile-nav .glyphicon-align-justify:hover {
     color: red; }
 
 .intro {

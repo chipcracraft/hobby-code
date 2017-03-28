@@ -34,11 +34,11 @@ img {
     padding-left: 6%;
   }
 
-  .glyphicon-search:hover {
+  .glyphicon:hover {
       color:red;
 
   }
-  .nav {
+  .nav,.search-glass {
     display: none;
 
     @media screen and (min-width:992px){
@@ -55,7 +55,7 @@ img {
     display: none;
   }
 
-  .double-ham:hover {
+  .glyphicon-align-justify:hover {
     color: red;
   }
 
