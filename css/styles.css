@@ -376,6 +376,10 @@ img {
   .nav-header .nav {
     display: inline-block;
     padding-left: 11px; }
+  .nav-header .search-glass {
+    padding-left: 6%; }
+  .nav-header .glyphicon-search:hover {
+    color: red; }
   .nav-header .nav {
     display: none; }
     @media screen and (min-width: 992px) {
