@@ -371,6 +371,9 @@ img {
   width: 100%;
   display: block; }
 
+.side-list {
+  list-style: none; }
+
 .nav-header {
   padding: 2% 0% 0% 87%; }
   .nav-header .nav {
@@ -388,6 +391,13 @@ img {
 
 .mobile-nav {
   padding: 1% 0% 0% 2%; }
+  .mobile-nav button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent; }
   @media screen and (min-width: 992px) {
     .mobile-nav {
       display: none; } }

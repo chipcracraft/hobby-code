@@ -9,17 +9,9 @@ img {
 #app-container{
 }
 
-// .sidebar {
-// position: fixed;
-// width: 5%;
-// height: 10%;
-// background: #bdc3c7;
-//
-//   .side-list {
-//     list-style: none;
-//   }
-//
-// }
+  .side-list {
+    list-style: none;
+  }
 
 
 .nav-header {
@@ -50,6 +42,16 @@ img {
 .mobile-nav {
   padding: 1% 0% 0% 2%;
 
+  button {
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+   }
+
 
   @media screen and (min-width:992px){
     display: none;
@@ -60,6 +62,8 @@ img {
   }
 
 }
+
+
 
 .intro {
   width: 100%;

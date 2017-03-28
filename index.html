@@ -10,19 +10,7 @@
       <link href="https://fonts.googleapis.com/css?family=Anton+Fjalla+One" rel="stylesheet">
    </head>
    <body>
-      <div id="app-container">
-        <!-- <div id="wrapper"> -->
-
-        <!-- <div class="sidebar">
-            <div class="list">
-              <ul class="side-list">
-                <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span></li>
-                <li><span class="glyphicon glyphicon-music" aria-hidden="true"></span></li>
-                <li><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></li>
-              </ul>
-            </div>
-          </div>
-        </div> -->
+    <div id="app-container">
 
 
 
@@ -35,13 +23,27 @@
               </div>
             </div>
 
+
+        <div class="dropdown">
             <div class="mobile-nav">
-              <span class="glyphicon glyphicon-align-justify double-ham" aria-hidden="true"></span>
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <a href="#" class="btn btn-default" id="menu-toggle"><span class="glyphicon glyphicon-align-justify double-ham" aria-hidden="true"></span></a>
+              </button>
+                    <ul class="dropdown-menu side-list"aria-labelledby="dropdownMenu">
+                      <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Account</li>
+                      <li><span class="glyphicon glyphicon-music" aria-hidden="true">Music</span></li>
+                      <li><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Settings</li>
+                    </ul>
+
             </div>
+          </div>
         </nav>
 
 
 
+
+
+      <div id="main-content">
         <div class="jumbotron intro text-center">
           <h1>Hello, I'm Chip Cracraft </h1>
         </div>
@@ -72,7 +74,7 @@
             </div>
           </div>
         </div>
-      </div>
+
 
 
     <div class="container-fluid lorem-content text-center">
@@ -110,45 +112,15 @@
                     <li><span class="list-group-item glyphicon glyphicon-envelope"aria-hidden="true"> chipcracraft@gmail.com</span></li>
                     <li><span class="list-group-item glyphicon glyphicon-home address">&nbsp;&nbsp;  208 S. Akard St. Dallas, TX 75202</li></span>
                  </ul>
+              </div>
             </div>
           </div>
         </div>
-
-        <!-- <div class="container">
-          <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-              <div class="panel-heading nav-top">
-                <a href="#collapseone" data-toggle="collapse" data-parent="#accordion">
-                  <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-                </a>
-              </div>
-            <div id="collapseone"class="panel-collapse collapse in">
-              <ul class="side-nav">
-                <li> Home </li>
-                <li> About </li>
-                <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                </li>
-              </ul>
-             </div>
-            </div>
-          </div>
-        </div> -->
-      <!-- </div> -->
-
-
-
-
-
-
-
-
-
       </div>
 
       <script src="./js/lib/jquery.min.js"></script>
-      <script src="./js/lib/underscore.min.js"></script>
-      <script src="./js/lib/backbone.min.js "></script>
       <script src="./js/app.js"></script>
+      <script src="js/app.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
