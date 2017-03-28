@@ -49,12 +49,14 @@ img {
   font-family: 'Anton', sans-serif;
 }
 
-.fun-facts {
-  padding-top: 7%;
+.about-me {
+  font-family: 'Fjalla One', sans-serif;
+  padding-bottom: 5%;
 }
 
-.contact-section {
-  padding-left: 45%;
+
+.fun-facts {
+  padding-top: 7%;
 }
 
 
@@ -83,21 +85,35 @@ img {
   padding-top: 18%;
 }
 
-.list-group {
-  list-style: none;
-}
 
-.my-info.collapse{
-  -webkit-transition: all 1.15s;
-      -moz-transition: all 1.15s;
-      -ms-transition: all 1.15s;
-      -o-transition: all 1.15s;
-      transition: all 1.15s;
+
+#collapseButton {
+  -webkit-transition: all 1.00s;
+      -moz-transition: all 1.00s;
+      -ms-transition: all 1.00s;
+      -o-transition: all 1.00s;
+      transition: all 1.00s;
 
 }
+
+.contact-section {
+  padding: 5% 5%;
+
+  .list-group {
+    list-style: none;
+  }
 
 .my-info {
-  padding-right: 26%;
-  position: absolute;
-  right: 5%;
+  border-width: 0;
+}
+
+  .address {
+    word-spacing: -.73em;
+  }
+
+  // .my-info {
+  //   padding-right: 26%;
+  //   position: absolute;
+  //   right: 5%;
+  // }
 }
