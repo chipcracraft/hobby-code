@@ -57,10 +57,18 @@ img {
   padding-left: 45%;
 }
 
-// .thumbnail {
-//     height: 75%;
-//     width:100%;
-// }
+
+.thumbnail{
+    width : 100%;
+    height: 75%;
+    overflow: auto;
+}
+
+.thumbnail img {
+  height: 75%;
+  height: auto;
+}
+
 
 .japan {
   -webkit-transform: rotate(90deg);
@@ -68,8 +76,11 @@ img {
 }
 
 .info-japan {
-  padding-top:21%;
+  padding-top:22%;
+}
 
+.info-surf {
+  padding-top: 18%;
 }
 
 .list-group {
