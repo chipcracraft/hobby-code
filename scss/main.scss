@@ -9,6 +9,19 @@ img {
 #app-container{
 }
 
+// .sidebar {
+// position: fixed;
+// width: 5%;
+// height: 10%;
+// background: #bdc3c7;
+//
+//   .side-list {
+//     list-style: none;
+//   }
+//
+// }
+
+
 .nav-header {
   padding: 2% 0% 0% 87%;
 
@@ -88,11 +101,13 @@ img {
 
 
 #collapseButton {
-  -webkit-transition: all 1.00s;
-      -moz-transition: all 1.00s;
-      -ms-transition: all 1.00s;
-      -o-transition: all 1.00s;
-      transition: all 1.00s;
+  -webkit-transition: all 1.10s;
+      -moz-transition: all 1.10s;
+      -ms-transition: all 1.10s;
+      -o-transition: all 1.10s;
+      transition: all 1.10s;
+
+      // max-height: 0;
 
 }
 

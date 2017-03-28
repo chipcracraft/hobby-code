@@ -425,11 +425,11 @@ img {
   padding-top: 18%; }
 
 #collapseButton {
-  -webkit-transition: all 1.00s;
-  -moz-transition: all 1.00s;
-  -ms-transition: all 1.00s;
-  -o-transition: all 1.00s;
-  transition: all 1.00s; }
+  -webkit-transition: all 1.10s;
+  -moz-transition: all 1.10s;
+  -ms-transition: all 1.10s;
+  -o-transition: all 1.10s;
+  transition: all 1.10s; }
 
 .contact-section {
   padding: 5% 5%; }
